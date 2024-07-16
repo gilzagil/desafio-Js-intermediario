@@ -1,0 +1,106 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 800px;
+    height: 402px;
+    background-image: url(/imagens/bg-repeat.jpg);
+    display: flex;
+}
+
+.mensagens{
+    width: 300px;
+    height: 111px;
+    margin-top: 146px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.dados{
+    width: 340px;
+    height: 378px;background-color: #fff;
+    margin-top: 12px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.form input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 298px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+input ::placeholder{
+    font-weight: 700;
+    font-size: 15px;
+    color: #a8a8a8;
+}
+
+#msg{
+    width: 298px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 14px;
+    position: absolute;
+}
+
+.btn{
+    background-color: #3CCC87;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 298px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+}
+
+.cpo-erro{
+  font-size: 8px;
+  font-weight: 400;
+  color: #f52e2e;    
+  margin-left: 20px;
+  position: absolute;
+}
+
+.cpo-valido{
+    display:none;
+}
+
+.input-erro{
+    border: 1px solid #f52e2e !important;
+}
+
+.input-valido{
+    border: 1px solid #00C22B !important;
+}
